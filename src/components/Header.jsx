@@ -1,9 +1,13 @@
 import React from "react";
+import BorderColorIcon from "@mui/icons-material/BorderColor";
 
 function Header() {
   return (
     <header>
-      <h1>Keeper</h1>
+      <h1>
+        <BorderColorIcon />
+        Keeper
+      </h1>
     </header>
   );
 }
