@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://github.com/alexbraga/keeper-app/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexbraga/keeper-app"></a>
-  <a href="https://github.com/alexbraga/keeper-app/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/alexbraga/keeper-app?label=license"></a>
 </p>
 
 <h4 align="center">
