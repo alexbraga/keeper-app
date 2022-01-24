@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <a href="https://alexbraga.github.io/keeper-app">Keeper App</a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    Note taking React app
+</h3>
 
-## Available Scripts
+<p align="center">
+  <a href="https://github.com/alexbraga/keeper-app/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexbraga/keeper-app"></a>
+  <a href="https://github.com/alexbraga/keeper-app/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/alexbraga/keeper-app?label=license"></a>
+</p>
 
-In the project directory, you can run:
+<h4 align="center">
+	 Status: Deployed
+</h4>
 
-### `npm start`
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#how-it-works">How it works</a> •
+ <a href="#tech-stack">Tech Stack</a> •
+ <a href="#author">Author</a> •
+ <a href="#license">License</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="justify">React notes app project built for <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web Development Bootcamp</a>. Available <a href="https://alexbraga.github.io/keeper-app">here</a>.</p>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Compose, save and delete notes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How it works
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pre-requisites
 
-### `npm run eject`
+Before you begin, you will need to have the following tool installed on your
+machine: [Git](https://git-scm.com). In addition, you
+might also want an editor to work with the code, like
+[VS Code](https://code.visualstudio.com/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Clone this repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+$ git clone https://github.com/alexbraga/keeper-app.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Running the Front-end
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
 
-## Learn More
+# Go to the app folder
+$ cd keeper-app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install the dependencies
+$ npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run the application in development mode
+$ npm start
 
-### Code Splitting
+# The application will automatically open on browser at port 3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tech Stack
 
-### Making a Progressive Web App
+The following tools were used in the construction of the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### **Front-end** ([React](https://reactjs.org/))
 
-### Advanced Configuration
+- **[Material UI](https://mui.com/)**
+- **[React DOM](https://www.npmjs.com/package/react-dom)**
+- **[React Scripts](https://www.npmjs.com/package/react-scripts)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> See the file
+> [package.json](https://github.com/alexbraga/keeper-app/master/package.json)
 
-### Deployment
+#### **Utilities**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **[GH Pages](https://www.npmjs.com/package/gh-pages)**
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+<p>Alexandre Braga</p>
+
+[![Twitter Badge](https://img.shields.io/badge/-@_alex_braga-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white)](https://twitter.com/_alex_braga)
+[![Linkedin Badge](https://img.shields.io/badge/-Alexandre%20Braga-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexgbraga/)
+[![Gmail Badge](https://img.shields.io/badge/-contato@alexbraga.com.br-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:contato@alexbraga.com.br)
+
+---
+
+## License
+
+This project is under the [MIT License](./LICENSE).
