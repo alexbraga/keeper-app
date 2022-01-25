@@ -12,7 +12,7 @@
 </p>
 
 <h4 align="center">
-	 Status: Deployed
+	 Status: Finished
 </h4>
 
 <p align="center">
