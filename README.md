@@ -32,7 +32,7 @@
 
 ## Features
 
-- Compose, save and delete notes
+- Compose, post and delete notes
 
 ---
 
