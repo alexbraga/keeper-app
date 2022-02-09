@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    Note taking React app
+    Note taking React app inspired by Google Keep
 </h3>
 
 <p align="center">
