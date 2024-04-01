@@ -38,6 +38,9 @@
 
 ## How it works
 
+1. <a href="#clone-this-repository">Clone this repository</a>
+2. <a href="#running-the-front-end">Run the front-end server</a>
+
 ### Pre-requisites
 
 Before you begin, you will need to have the following tools installed on your
@@ -45,33 +48,34 @@ machine:
 
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org)
-- [npm](https://npmjs.com)
 
 In addition, you might also want an editor to work with the code, like
 [VS Code](https://code.visualstudio.com/).
 
-#### Clone this repository
-
-```bash
-$ git clone https://github.com/alexbraga/keeper-app.git
-```
-
-#### Running the Front-end
-
-```bash
-
-# Go to the app folder
-$ cd keeper-app
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm start
-
-# The application will automatically open on browser at port 3000
+### Clone this repository
 
 ```
+git clone https://github.com/alexbraga/keeper-app.git
+```
+
+### Running the Front-end
+
+Go to the app folder
+```
+cd keeper-app
+```
+
+Install the dependencies
+```
+npm install
+```
+
+Run the application in development mode
+```
+npm start
+```
+
+The application will automatically open on your default browser at http://localhost:3000
 
 ---
 
